@@ -1,0 +1,71 @@
+.figurasPlanas {
+    display: flex;
+}
+
+.fig {
+    padding: 20px;
+    border: 1px dotted dodgerblue;
+    width: 200px;
+}
+
+.figura {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    flex-flow: wrap;
+}
+
+.shadow {
+    background-color: cadetblue;
+}
+
+.circle {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.circle:hover {
+    transform: translate(20px, 20px);
+}
+
+.otroCirculo {
+    background: #0099F7;
+    background: -webkit-linear-gradient(to right, #F11712, #0099F7);
+    background: linear-gradient(to right, #F11712, #0099F7);
+}
+
+.otroCirculo:hover {
+    transform: scale(2.1, -1);
+}
+
+.cuadrado {
+    background-color: darkslateblue;
+    border-radius: 20%;
+}
+
+.cuadrado:hover {
+    transform: skew(20deg);
+}
+
+.cuadrado2 {
+    width: 150px;
+    background-color: tomato;
+    border-radius: 8%;
+}
+
+.cuadrado2:hover {
+    transform: rotate(50deg);
+}
+
+.cuadrado3 {
+    width: 180px;
+    background: #c2e59c;
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
+    border-radius: 10%;
+    transform-origin: bottom right;
+}
+
+.cuadrado3:hover {
+    transform: rotate(90deg);
+}
